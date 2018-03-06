@@ -4,7 +4,8 @@ lazy val commonSettings = Seq(
   scalaVersion := "2.12.4",
   libraryDependencies ++= Seq(
     "com.typesafe.akka" %% "akka-actor" % "2.5.10",
-    "com.typesafe.akka" %% "akka-testkit" % "2.5.10" % Test
+    "com.typesafe.akka" %% "akka-testkit" % "2.5.10" % Test,
+    "org.scalatest" %% "scalatest" % "3.0.5" % Test
   )
 )
 
